@@ -357,7 +357,7 @@ var Pin$1 = function () {
         this.data = data;
 
         setStyle($el, { width: $el.clientWidth });
-        setStyle($el.parentNode, { width: $el.clientHeight });
+        setStyle($el.parentNode, { height: $el.clientHeight });
       }
     }
 
