@@ -60,6 +60,7 @@ var setStyle = function setStyle(el, styles) {
  * @return {Object}         offset 值
  */
 var getOffset = function getOffset(el) {
+  if (!el) return { top: 0, left: 0 };
   var box = el.getBoundingClientRect();
 
   return {

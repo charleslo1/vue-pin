@@ -54,6 +54,7 @@ export const setStyle = (el, styles) => {
  * @return {Object}         offset 值
  */
 export const getOffset = (el) => {
+  if (!el) return {top: 0, left: 0}
   let box = el.getBoundingClientRect()
 
   return {

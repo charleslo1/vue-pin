@@ -1,6 +1,6 @@
 {
   "name": "vue-pin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "使用 Vue 指令快速的 “钉”住某个元素",
   "main": "dist/vue-pin.js",
   "scripts": {
