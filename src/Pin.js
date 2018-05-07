@@ -17,7 +17,7 @@ export default class Pin {
     this.scrollY = 0
     this.elements = []
     this.disabled = false
-    this.options = this.options || {}
+    this.options = options || {}
     this.data = {}
 
     // 初始化
@@ -91,8 +91,8 @@ export default class Pin {
       }, this.options.padding || {})
       let data = {
         pad: pad,
-        from: offset.top - pad.top,
-        // from: (this.options.containerSelector ? offset.top : offset.top) - pad.top,
+        // from: offset.top - pad.top,
+        from: (this.options.containerSelector ? containerOffset.top : offset.top) - pad.top,
         to: containerOffset.top + getHeight($container) - $el.clientHeight - pad.bottom,
         end: containerOffset.top + getHeight($container),
         parentTop: parentOffset.top
