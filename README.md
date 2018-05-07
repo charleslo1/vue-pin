@@ -59,7 +59,7 @@ export default {
 ## 非 Vue 框架使用
 
 ``` js
-import Pin from 'pin'
+import Pin from 'vue-pin'
 
 // 获取元素
 var el = document.querySelector('.nav')
