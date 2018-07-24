@@ -1,5 +1,12 @@
+
+# vue-pin
+
+> 使用 Vue 指令快速的 “钉”住某个元素
+
+![vue-pin](./assets/vue-pin.png)
+
 # Inrto
-使用 Vue 指令快速的 “钉”住某个元素，移植于 [jQuery.pin](https://github.com/webpop/jquery.pin)
+使用 Vue 指令快速的 “钉”住某个元素，同时支持原生调用，移植于 [jQuery.pin](https://github.com/webpop/jquery.pin)
 
 # Install
 
