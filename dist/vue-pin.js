@@ -436,6 +436,7 @@ var Pin$1 = function () {
 Pin$1.directiveOptions = {
   inserted: function inserted(el, options) {
     Pin$1.create(el, options.value);
+    el.updatePin = Pin$1.create.bind(null, el, options.value);
   },
   componentUpdated: function componentUpdated(el, options) {
     setTimeout(function () {
