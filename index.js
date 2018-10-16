@@ -7,6 +7,7 @@ import Pin from './src/Pin'
 Pin.directiveOptions = {
   inserted: function (el, options) {
     Pin.create(el, options.value)
+    el.updatePin = Pin.create.bind(null, el, options.value)
   },
   componentUpdated: function (el, options) {
     setTimeout(() => { Pin.create(el, options.value) }, 500)
