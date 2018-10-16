@@ -1,6 +1,6 @@
 {
   "name": "vue-pin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "使用 Vue 指令快速的 “钉”住某个元素",
   "main": "dist/vue-pin.js",
   "scripts": {
@@ -18,7 +18,7 @@
   ],
   "author": "Charles Lo",
   "license": "ISC",
-  "dependencies": { },
+  "dependencies": {},
   "devDependencies": {
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-es2015": "^6.24.1",

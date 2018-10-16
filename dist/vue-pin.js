@@ -256,6 +256,9 @@ var Pin$1 = function () {
     this.options = options || {};
     this.data = {};
 
+    // 将 Pin 实例绑定到元素，以便可手动触发 update
+    el.pin = this;
+
     // 初始化
     this._init();
   }
