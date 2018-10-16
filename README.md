@@ -84,6 +84,11 @@ var pin = new Pin(el, options)
 // 或
 Pin.create(el, options)
 
+// 在特殊情况下需要手动更新时可使用以下方式调用
+pin.update()
+// 或
+el.pin.update()
+
 ```
 
 # options
